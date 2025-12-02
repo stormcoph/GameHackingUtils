@@ -36,6 +36,7 @@ Before writing code, we need the game's class structure.
     *   1. **Copy ALL files** files from `C:\Dumper-7\{GameVersion}-{GameName}\CppSDK\SDK\` into your `External\SDK`
     *   2. **Copy ALL files** files from `C:\Dumper-7\{GameVersion}-{GameName}\CppSDK\` into your `External\SDK`
     *   Also since we changed the auto generated project structure, we need to change some of the paths in the header files, i cant remember what files exactly, but it will probably look something like this `../{some header file}` just do ctrl+H replace `../` with `` so basically just nothing, just use your common knowledge.
+    *   *The reason that we do this is because of a quirk in how Visual Studio handles "Include Directories" versus how Dumper-7 writes its #include lines.* **WHICH IS FUCKING STUPID I HATE VISUAL STUDIO AND I HATE C++, FUCK THAT FUCKIGN LANGUAGE, ITS SO FUCKIGN ANNOYING, EVER TRIED TO INSTALL LIBARIES AND CREATE A CMAKE FILE IN C++ ?? YOU WILL KNOW EXACTLY THE SHIT I AM TALKING ABOUT**
 
 **Your structure must look like this:**
 ```text
