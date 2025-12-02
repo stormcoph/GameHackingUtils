@@ -209,12 +209,16 @@ BOOL APIENTRY DllMain(HMODULE hModule, DWORD ul_reason_for_call, LPVOID lpReserv
 7.  **Success:** A black console window should appear over your game.
 
 #### Using Fate Injector instead of process hacker 2
-i prefer using Fate Injector, since its cleaner, simpler and only made for DLL injection
-to use it, dowload the exe from their github at https://github.com/fligger/FateInjector
-then your anti virus will probably flag it, this is not because its a virus, but because it is an DLL injector, which is a very common virus pattern (because a virus injects itself into system dll's and can stay there hidden, therefor it gets flagged, but Fate injector is not a virus)
-open the game and the exe (doesnt matter which you open first)
-click the boolean `Custom Target` and copy the file name of the game, e.g `Bodycam-Win64-Shipping.exe` after you find your DLL and you just press "inject"
-**why is it easier?** well for one, its way more simple ui, and doesnt have all the useless stuff that process hacker has, and when you close it and open it later, it will save your paths and custom target. **And if your hacking unity games (i also have a guide for that) it can auto detect the game you have launched (toggle off `custom target` for this**
+
+*   I prefer using Fate Injector, since its cleaner, simpler and only made for DLL injection.
+*   To use it, dowload the exe from their github at https://github.com/fligger/FateInjector.
+*   Your anti virus will probably flag it; this is not because its a virus, but because it is an DLL injector, which is a very common virus pattern (because a virus injects itself into system dll's and can stay there hidden, therefor it gets flagged, but Fate injector is not a virus).
+*   Open the game and the exe (doesnt matter which you open first).
+*   Click the boolean `Custom Target` and copy the file name of the game, e.g `Bodycam-Win64-Shipping.exe`.
+*   After you find your DLL, you just press "inject".
+*   **Why is it easier?** Well for one, its way more simple ui, and doesnt have all the useless stuff that process hacker has.
+*   When you close it and open it later, it will save your paths and custom target.
+*   **And if your hacking unity games (i also have a guide for that) it can auto detect the game you have launched (toggle off `custom target` for this**.
 
 ---
 
