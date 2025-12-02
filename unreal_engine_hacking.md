@@ -33,8 +33,8 @@ Before writing code, we need the game's class structure.
     *   Go to your project folder (where `InternalCheat.vcxproj` is).
     *   Create a folder named `External`.
     *   Inside `External`, create a folder named `SDK`.
-    *   1. **Copy ALL files** files from `C:\Dumper-7\{GameVersion}-{GameName}\CppSDK\SDK\` into your External\SDK
-    *   2. **Copy ALL files** files from `C:\Dumper-7\{GameVersion}-{GameName}\CppSDK\` into your External\SDK
+    *   1. **Copy ALL files** files from `C:\Dumper-7\{GameVersion}-{GameName}\CppSDK\SDK\` into your `External\SDK`
+    *   2. **Copy ALL files** files from `C:\Dumper-7\{GameVersion}-{GameName}\CppSDK\` into your `External\SDK`
     *   Also since we changed the auto generated project structure, we need to change some of the paths in the header files, i cant remember what files exactly, but it will probably look something like this `../{some header file}` just do ctrl+H replace `../` with `` so basically just nothing, just use your common knowledge.
 
 **Your structure must look like this:**
